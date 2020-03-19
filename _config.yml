@@ -20,6 +20,7 @@ url: "https://alexandreabraham.github.io/"
 
 # List of links in the navigation bar
 navbar-links:
+  Blog: "blog"
   Publications: "publications"
   Art: "art"
   About Me: "aboutme"
