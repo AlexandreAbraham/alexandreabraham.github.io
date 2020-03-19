@@ -48,7 +48,7 @@ International Conference on Medical Image Computing and Computer-Assisted Interv
 
 # Recommender Systems
 
-[**Offline a/b testing for recommender systems.**](https://arxiv.org/pdf/1801.07030.pdf) —
+[**Offline A/B testing for recommender systems.**](https://arxiv.org/pdf/1801.07030.pdf) —
 *Gilotte A, Calauzènes C, Nedelec T,* ***Abraham A***, *Dollé S.* —
 Proceedings of the Eleventh ACM International Conference on Web Search and Data Mining 2018
 
