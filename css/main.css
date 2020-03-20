@@ -306,6 +306,19 @@ footer .theme-by {
   }
 }
 
+/* --- Post Meta --- */
+
+.post-meta {
+    position: absolute;
+    line-height: 16px;
+    top: 0;
+    left: -70px;
+    font-size: 15px;
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+}
+
+
 /* --- Post preview --- */
 
 .post-preview {
