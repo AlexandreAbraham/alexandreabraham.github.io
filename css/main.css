@@ -326,6 +326,9 @@ footer .theme-by {
 .post-preview a {
   text-decoration: none;
   color: #404040;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  margin-left: 70px;
 }
 
 .post-preview a:focus,
