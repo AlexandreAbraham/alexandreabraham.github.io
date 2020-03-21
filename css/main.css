@@ -319,7 +319,7 @@ article {
 
 @media (max-width: 768px) {
   .post-meta {
-    right: -70px;
+    right: 0px;
     border-left: 1px solid #ddd;
     padding-left: 10px;
   }
