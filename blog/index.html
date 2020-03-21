@@ -8,6 +8,11 @@ use-site-title: true
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
+
+    {% if post.ext-link %}
+    
+
+    {% else %} <!-- post.ext-link -->
     <a href="{{ post.url | relative_url }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
 
@@ -52,6 +57,7 @@ use-site-title: true
       {% endif %}
     </div>
     {% endif %}
+    {% endif %} <!-- post.ext-link -->
 
    </article>
   {% endfor %}
