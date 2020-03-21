@@ -343,7 +343,7 @@ article {
 }
 
 @media (max-width: 768px) {
-  .post-preview {
+  .post-preview-title {
     margin-right: 70px;
   }
 
