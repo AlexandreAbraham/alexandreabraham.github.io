@@ -307,10 +307,14 @@ article {
     box-sizing: content-box;
     color: #808080;
     font-style: italic;
+}
 
+@media only screen and (max-width: 768px) {
+  .post-meta {
     left: -70px;
     border-right: 1px solid #ddd;
     padding-right: 10px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
