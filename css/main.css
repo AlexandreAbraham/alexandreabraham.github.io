@@ -304,7 +304,7 @@ article {
     line-height: 16px;
     top: 0;
     left: -70px;
-    font-size: 15px;
+    font-size: 18px;
     border-right: 1px solid #ddd;
     padding-right: 10px;
     box-sizing: content-box;
@@ -321,7 +321,6 @@ article {
 .year {
   display: block;
   text-align: right;
-  color: red;
 }
 
 /* --- Post preview --- */
