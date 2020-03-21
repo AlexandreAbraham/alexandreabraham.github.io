@@ -492,6 +492,9 @@ article p {
 .intro-header .page-heading {
   text-align: center;
 }
+.intro-header .post-heading {
+  position: relative;
+}
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
   padding: 100px 0;
