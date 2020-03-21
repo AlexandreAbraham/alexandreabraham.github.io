@@ -307,6 +307,7 @@ article {
     box-sizing: content-box;
     color: #808080;
     font-style: italic;
+    margin-top: 0px;
 }
 
 @media (min-width: 768px) {
