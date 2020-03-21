@@ -311,7 +311,7 @@ article p {
     box-sizing: content-box;
     color: #808080;
     font-style: italic;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 @media (min-width: 768px) {
@@ -553,9 +553,6 @@ article p {
   }
   .intro-header .page-heading h1 {
     font-size: 65px;
-  }
-  .intro-header .post-heading h1 {
-    font-size: 50px;
   }
   .intro-header.big-img .img-desc {
     font-size: 14px;
