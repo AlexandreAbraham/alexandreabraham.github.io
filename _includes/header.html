@@ -25,6 +25,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="{{ include.type }}-heading">
+	<div>
           <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
 		  {% if page.subtitle %}
 		    {% if include.type == "page" %}
@@ -35,6 +36,7 @@
 			{% endif %}
 		  {% endif %}
 		  
+		</div>
 		  {% if include.type == "post" %}
 		      <p class="post-meta">
   		          <span class="month-day">{{ page.date | date: '%d %b' }}</span>
@@ -53,6 +55,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="{{ include.type }}-heading">
+	  <div>
           <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
 		  {% if page.subtitle %}
 		    {% if include.type == "page" %}
@@ -62,7 +65,7 @@
 			<h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
 			{% endif %}
 		  {% endif %}
-		  
+		</div>
 		  {% if include.type == "post" %}
 		      <p class="post-meta">
   		          <span class="month-day">{{ page.date | date: '%d %b' }}</span>
