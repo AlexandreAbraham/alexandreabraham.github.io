@@ -64,7 +64,10 @@
 		  {% endif %}
 		  
 		  {% if include.type == "post" %}
-		  <span class="post-meta">Posted on {{ page.date | date: site.date_format }}</span>
+		      <p class="post-meta">
+  		          <span class="month-day">{{ post.date | date: '%d %b' }}</span>
+   		          <span class="year">{{ post.date | date: '%Y' }}</span>
+  		      </p>
 		  {% endif %}
         </div>
       </div>
