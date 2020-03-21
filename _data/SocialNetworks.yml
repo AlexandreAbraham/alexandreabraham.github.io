@@ -62,6 +62,11 @@ instagram:
   urlTemplate: "https://www.instagram.com/{value}"
   icon: "fab fa-instagram"
 
+medium:
+  name: "Medium"
+  urlTemplate: "https://medium.com/@{value}"
+  icon: "fab fa-medium"
+
 youtube:
   name: "YouTube"
   urlTemplate: "https://www.youtube.com/{value}"
