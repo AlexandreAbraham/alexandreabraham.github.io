@@ -37,8 +37,8 @@
 		  
 		  {% if include.type == "post" %}
 		      <p class="post-meta">
-  		          <span class="month-day">{{ post.date | date: '%d %b' }}</span>
-   		          <span class="year">{{ post.date | date: '%Y' }}</span>
+  		          <span class="month-day">{{ page.date | date: '%d %b' }}</span>
+   		          <span class="year">{{ page.date | date: '%Y' }}</span>
   		      </p>
 		  {% endif %}
         </div>
@@ -65,8 +65,8 @@
 		  
 		  {% if include.type == "post" %}
 		      <p class="post-meta">
-  		          <span class="month-day">{{ post.date | date: '%d %b' }}</span>
-   		          <span class="year">{{ post.date | date: '%Y' }}</span>
+  		          <span class="month-day">{{ page.date | date: '%d %b' }}</span>
+   		          <span class="year">{{ page.date | date: '%Y' }}</span>
   		      </p>
 		  {% endif %}
         </div>
