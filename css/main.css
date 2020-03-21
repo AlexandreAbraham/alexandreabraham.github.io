@@ -309,7 +309,7 @@ article {
     font-style: italic;
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 768px) {
   .post-meta {
     left: -70px;
     border-right: 1px solid #ddd;
@@ -317,7 +317,7 @@ article {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media (max-width: 768px) {
   .post-meta {
     right: -70px;
     border-left: 1px solid #ddd;
