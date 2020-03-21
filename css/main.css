@@ -308,17 +308,16 @@ article {
     color: #808080;
     font-style: italic;
 
-    right: -70px;
-    border-left: 1px solid #ddd;
-    padding-left: 10px;
+    left: -70px;
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
 }
 
 @media only screen and (min-width: 768px) {
   .post-meta {
-    left: -70px;
-    border-right: 1px solid #ddd;
-    padding-right: 10px;
-    box-sizing: content-box;
+    right: -70px;
+    border-left: 1px solid #ddd;
+    padding-left: 10px;
   }
 }
 
