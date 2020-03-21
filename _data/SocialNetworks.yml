@@ -12,6 +12,11 @@ facebook:
   urlTemplate: "https://www.facebook.com/{value}"
   icon: "fab fa-facebook"
 
+scholar:
+  name: "Google scholar"
+  urlTemplate: "https://scholar.google.com/citations?user={value}"
+  icon: "fab fa-graduation-cap"
+
 github:
   name: "GitHub"
   urlTemplate: "https://github.com/{value}"
