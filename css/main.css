@@ -345,6 +345,7 @@ article p {
 
 .post-preview {
   border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
@@ -553,6 +554,9 @@ article p {
   }
   .intro-header .page-heading h1 {
     font-size: 65px;
+  }
+  .intro-header .post-heading h1 {
+    font-size: 40px;
   }
   .intro-header.big-img .img-desc {
     font-size: 14px;
