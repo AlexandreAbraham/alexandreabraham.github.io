@@ -17,4 +17,4 @@ I was however surprised to see that the explanation of the algorithm was way mor
 
 Let's put some letters on the problem. I have an affine function that can be written:
 
-$f(x) = ax + b$
+$$f(x) = ax + b$$
