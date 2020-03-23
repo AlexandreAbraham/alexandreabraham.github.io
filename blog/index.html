@@ -57,6 +57,7 @@ use-site-title: true
         {% endif %}
       </div>
     </div>
+    {% endif %} <!-- post.ext-link -->
 
     {% if post.tags.size > 0 %}
     <div class="blog-tags">
@@ -70,8 +71,7 @@ use-site-title: true
       {% endif %}
     </div>
     {% endif %}
-    {% endif %} <!-- post.ext-link -->
-
+	  
    </article>
   {% endfor %}
 </div>
