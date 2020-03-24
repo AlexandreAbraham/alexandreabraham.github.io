@@ -18,29 +18,29 @@ I was however surprised to see that the explanation of the algorithm was way mor
 
 # The problem
 
-Let's put some letters on the problem. I have an affine function parametrized by $a$ and $b$ that can be written as:
+Let's put some letters on the problem. I have an affine function parametrized by $$a$$ and $$b$$ that can be written as:
 
 $$f(x) = ax + b$$
 
-And a rectangle define by two points: $[(x_{min}, y_{min}), (x_{max}, y_{max})]$.
+And a rectangle define by two points: $$[(x_{min}, y_{min}), (x_{max}, y_{max})]$$.
 
-![Intersection between line and rectangle](img/liang.png){: .center-block :}
+![Intersection between line and rectangle](/img/liang.png){: .center-block :}
 
-On the figure, we see that the black line (our affine function) intersects with the rectangle when it crosses the vertical line $x_{min}$ and the horizontal line $y_{max}$. The tricky point is that our function can cross any of the sides of the rectangle and therefore we need to determine the ones in which we are interested. This is what the Liang-Barsky algorithm does.
+On the figure, we see that the black line (our affine function) intersects with the rectangle when it crosses the vertical line $$x_{min}$$ and the horizontal line $$y_{max}$$. The tricky point is that our function can cross any of the sides of the rectangle and therefore we need to determine the ones in which we are interested. This is what the Liang-Barsky algorithm does.
 
 {: .box-warning}
 **Warning:** A perfectly horizontal or vertical line will be parallel to some of the rectangle sides and therefore the method described in this post may not work. Those simple cases are traditionally treated first because they are easy to spot and the solution is simple.
 
 # The algorithm
 
-If we consider our function infinite, it will always cross all the sides of the rectangles — if we consider them infinite. We have therefore 4 intersections, with $x_{min}$, $y_{min}$, $x_{max}$, and $y_{max}$.
+If we consider our function infinite, it will always cross all the sides of the rectangles — if we consider them infinite. We have therefore 4 intersections, with $$x_{min}$$, $$y_{min}$$, $$x_{max}$$, and $$y_{max}$$.
 
-As it happens, if we consider the intersectons from left to right in term of the $x$-axis, the first and last ones are always outside of the rectangle. The points we are looking for are the second and thirs ones.
+As it happens, if we consider the intersectons from left to right in term of the $$x$$-axis, the first and last ones are always outside of the rectangle. The points we are looking for are the second and thirs ones.
 
 And that's it!
 
 {: .box-note}
-**Note:** This is if we assume that the line crosses the rectangle. If we want to know if the line crosses the rectangle, there is a simple trick too. If we look at the first two points, sorted from left to right, one of them must be a $y$-line, and the other an $x$-line. It is easy to see again: if the line crosses the two $x$-lines or $y$-lines first, you can see that it will note be able to get back to the domain occupied by the rectangle.
+**Note:** This is if we assume that the line crosses the rectangle. If we want to know if the line crosses the rectangle, there is a simple trick too. If we look at the first two points, sorted from left to right, one of them must be a $$y$$-line, and the other an $$x$$-line. It is easy to see again: if the line crosses the two $$x$$-lines or $$y$$-lines first, you can see that it will note be able to get back to the domain occupied by the rectangle.
 
 # The code
 
@@ -49,13 +49,13 @@ Let's now code it! Using the sorted function of Python, this is really simple!
 ```python
 def line_x_rectangle(a, b, x_min, y_min, x_max, y_max):
 
-    # We compute the intersection of the line with the rectangle (x, y, axis)
+    # Intersections of f(x) = ax + b with the rectangle. (x, y, axis)
     p1, p2 = (x_min, a * x_min + b, 'x'), (x_max, a * x_max + b, 'x'), 
     p3, p4 = ((y_min - b) / a, y_min, 'y'), ((y_max - b) / a, y_max, 'y')
     # Python sorts them using the first key
     p1, p2, p3, p4 = sorted([p1, p2, p3, p4])
 
-    # We can check if there is an intersection, otherwise we return the points.
+    # Check if there is an intersection, returns the points otherwise
     if p1[3] == p2[3]:
         return None
     return p2[:2], p3[:2]
