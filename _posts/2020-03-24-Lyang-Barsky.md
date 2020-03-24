@@ -18,3 +18,14 @@ I was however surprised to see that the explanation of the algorithm was way mor
 Let's put some letters on the problem. I have an affine function that can be written:
 
 $$f(x) = ax + b$$
+
+And rectangle define by two points: *(xmin, ymin), (xmax, ymax)*
+
+<style>
+  .katex-version {display: none;}
+  .katex-version::after {content:"0.10.2 or earlier";}
+</style>
+<span class="katex">
+  <span class="katex-mathml">The KaTeX stylesheet is not loaded!</span>
+  <span class="katex-version rule">KaTeX stylesheet version: </span>
+</span>
