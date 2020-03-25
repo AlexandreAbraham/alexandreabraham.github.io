@@ -56,7 +56,7 @@ def line_x_rectangle(a, b, x_min, y_min, x_max, y_max):
     p1, p2, p3, p4 = sorted([p1, p2, p3, p4])
 
     # Check if there is an intersection, returns the points otherwise
-    if p1[3] == p2[3]:
+    if p1[2] == p2[2]:
         return None
     return p2[:2], p3[:2]
 ```
