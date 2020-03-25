@@ -5,16 +5,16 @@ subtitle: How a geometric problem can find a beautiful coding solution
 tags: [Ugly code]
 ---
 
-I recently stumbled upon a very simple problem: I had to compute the intersection points of a line — actually, an affine function — and a rectangle. For that kind of simple geometric problem, I do not rush toward Google. I prefer to try to solve it myself, to keep my problem-solving mind sharp!
+I recently stumbled upon an elementary problem: I had to compute the intersection points of a line — actually, an affine function — and a rectangle. For that kind of simple geometric problem, I do not rush toward Google. I prefer to try to solve it myself, to keep my problem-solving mind sharp!
 
 I made some drawings, found the corner cases, then an algorithm, and it was finished in no time.
 
-I found the algorithm was simple and elegant so I decided to check how it compared to other methods. Obviously google led me to a [Wikipedia list of algorithms solving this problem](https://en.wikipedia.org/wiki/Line_clipping). I discovered that my solution was actually very close to [Liang-Barsky algorithm](https://en.wikipedia.org/wiki/Liang%E2%80%93Barsky_algorithm) apart from the fact that I was working with an inifinite line when other methods are dealing with finite segments.
+I found the algorithm was simple and elegant, so I decided to check how it compared to other methods. Google led me to a [Wikipedia list of algorithms solving this problem](https://en.wikipedia.org/wiki/Line_clipping). I discovered that my solution was very close to [Liang-Barsky algorithm](https://en.wikipedia.org/wiki/Liang%E2%80%93Barsky_algorithm) apart from the fact that I was working with an infinite line when other methods are dealing with finite segments.
 
-I was however surprised to see that the explanation of the algorithm was way more complicated that the simple intuition I used to create my algorithm. Here is an attempt to explain how I see Liang-Barsky algorithm, and how it can be coded with 3 lines of Python.
+I was, however, surprised to see that the explanation of the algorithm was way more complicated than the naive intuition I had in mind when solving the problem myself. Here is an attempt to explain how I see Liang-Barsky algorithm and how one can code it with 3 lines of Python.
 
 {: .box-note}
-**Note:** That kind of geometric operation is typically used in graphics engine. In this context, the implementation needs to be as efficient as possible and all kind of tricks can be used to make it faster. My goal in this post is not to adress this case but to find the simplest intuition and the clearest code.
+**Note:** That kind of geometric operation is typically used in graphics engines. In this context, the implementation needs to be as efficient as possible and leverage all kinds of tricks to be faster. The goal of this post is to focus on intuition and understanding rather than efficient implementation.
 
 # The problem
 
@@ -26,25 +26,25 @@ And a rectangle define by two points: $$[(x_{min}, y_{min}), (x_{max}, y_{max})]
 
 ![Intersection between line and rectangle](/img/liang.png){: .center-block :}
 
-On the figure, we see that the black line (our affine function) intersects with the rectangle when it crosses the vertical line $$x_{min}$$ and the horizontal line $$y_{max}$$. The tricky point is that our function can cross any of the sides of the rectangle and therefore we need to determine the ones in which we are interested. This is what the Liang-Barsky algorithm does.
+On the figure, we see that the black line (our affine function) intersects with the rectangle when it crosses the vertical line $$x_{min}$$ and the horizontal line $$y_{max}$$. The tricky point is that our function can cross any of the sides of the rectangle, and therefore we need to determine the ones in which we are interested. This is what the Liang-Barsky algorithm does.
 
 {: .box-warning}
-**Warning:** A perfectly horizontal or vertical line will be parallel to some of the rectangle sides and therefore the method described in this post may not work. Those simple cases are traditionally treated first because they are easy to spot and the solution is simple.
+**Warning:** A perfectly horizontal or vertical line is parallel to some of the rectangle sides. This known corner case is traditionally treated apart because its solution is straightforward. I did not mention it here to keep the code as simple as possible.
 
 # The algorithm
 
-If we consider our function infinite, it will always cross all the sides of the rectangles — if we consider them infinite. We have therefore 4 intersections, with $$x_{min}$$, $$y_{min}$$, $$x_{max}$$, and $$y_{max}$$.
+If we consider our function infinite, it always crosses all the sides of the rectangles — if we consider them infinite too. We have therefore 4 intersections, with $$x_{min}$$, $$y_{min}$$, $$x_{max}$$, and $$y_{max}$$.
 
-As it happens, if we consider the intersectons from left to right in term of the $$x$$-axis, the first and last ones are always outside of the rectangle. The points we are looking for are the second and thirs ones.
+From left to right along the $$x$$-axis, the first and last intersections are always outside of the rectangle. This is the principle on which relies the Liang-Barsky algorithm.
 
 And that's it!
 
 {: .box-note}
-**Note:** This is if we assume that the line crosses the rectangle. If we want to know if the line crosses the rectangle, there is a simple trick too. If we look at the first two points, sorted from left to right, one of them must be a $$y$$-line, and the other an $$x$$-line. It is easy to see again: if the line crosses the two $$x$$-lines or $$y$$-lines first, you can see that it will note be able to get back to the domain occupied by the rectangle.
+**Note:** I assume here that the line does not *miss* the rectangle. A simple trick can test this. Looking at the first two points, sorted from left to right again, one of them must cross a $$y$$-line, and the other an $$x$$-line, in any order. If the line cross two $$x$$-lines first, it means that it is evolving in the domain above or below the rectangle for the rest of the graph.
 
 # The code
 
-Let's now code it! Using the sorted function of Python, this is really simple!
+Let's now code it! Using the sorted function of Python, this is trivial!
 
 ```python
 def line_x_rectangle(a, b, x_min, y_min, x_max, y_max):
