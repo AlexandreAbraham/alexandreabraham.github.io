@@ -24,7 +24,7 @@ $$f(x) = ax + b$$
 
 And a rectangle define by two points: $$[(x_{min}, y_{min}), (x_{max}, y_{max})]$$.
 
-![Intersection between line and rectangle](/img/liang.png){: .center-block :}
+![Intersection between line and rectangle](/img/liang.png){: .center-block,.w60 :}
 
 On the figure, we see that the black line (our affine function) intersects with the rectangle when it crosses the vertical line $$x_{min}$$ and the horizontal line $$y_{max}$$. The tricky point is that our function can cross any of the sides of the rectangle, and therefore we need to determine the ones in which we are interested. This is what the Liang-Barsky algorithm does.
 
