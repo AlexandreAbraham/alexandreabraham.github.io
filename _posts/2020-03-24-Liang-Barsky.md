@@ -37,7 +37,7 @@ Our affine function being infinite, it necessarly crosses all the sides of the r
 
 Liang-Barsky's algorithm tells us how to determine these two. And the intuition is very simple: Given all the intersecting points, if we consider them sorted by their $$x$$-coordinate, the first and last points are always outside of the rectangle. And that's it!
 
-This intuition is easy to verify on the example above: In order to cross the left side of the rectangle, the affine function must be between $$y_{min}$$ and $$y_{{max}}$$, so it necessary crosses one them before, in this case, $$y_{min}$$. You can try all the different cases as an exercise: It always works.
+This intuition is easy to verify on the example above: In order to cross the left side of the rectangle, the affine function must be between $$y_{min}$$ and $$y_{max}$$, so it necessary crosses one them before, in this case, $$y_{min}$$. You can try all the different cases as an exercise: It always works.
 
 {: .box-note}
 **Note:** The cases where the affine function is parallel to the sides of the rectangle, where it crosses exactly a corner of the rectangle (so two sides at once) can be handled separately. I also assume here that the line crosses the rectangle. A simple trick can test this. Looking at the first two points, sorted from left to right again, one of them must cross a $$y$$-line, and the other an $$x$$-line, in any order. If the line cross two $$x$$-lines first, it means that it is evolving in the domain above or below the rectangle for the rest of the graph.
