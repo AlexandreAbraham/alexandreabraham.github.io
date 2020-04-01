@@ -61,4 +61,8 @@ def line_x_rectangle(a, b, x_min, y_min, x_max, y_max):
     return p2[:2], p3[:2]
 ```
 
+# Why is that beautiful?
+
+I would say that this algorithm is beautiful because it relies on a simple principle that is intuitive. It can be written in a clear and concise code — thanks to some Python magic.
+
 Now that you have this intuition in mind, I invite you to take a look at the [Wikipedia implementation](https://en.wikipedia.org/wiki/Liang%E2%80%93Barsky_algorithm) and it should appear clearer. Do not hesitate also to compare this explanation to [other available on the web](https://gist.github.com/ChickenProp/3194723), it is always better to find the explanation that better suits you.
