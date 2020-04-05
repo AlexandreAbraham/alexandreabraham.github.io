@@ -1,5 +1,5 @@
 ---
-title: Hack from hom hackathon against COVID-19
+title: Hack from home hackathon against COVID-19
 subtitle: Trying to do some good during confinment
 ---
 
