@@ -1,6 +1,6 @@
 ---
-title: Why not analyzing COVID death?
-subtitle: Another blog about pandemic
+title: The effect of line matching on ranking
+subtitle: And why analyzing COVID curves can be tricky
 ---
 
 In the past weeks, I have seen flourishing a lot of COVID analysis. Some are very simple and just nicely display the data with a shallow analysis. Some adopt a different angle and propose a new approach to the data. The most advanced ones feature maps or crazy modelizations of the disease spread.
