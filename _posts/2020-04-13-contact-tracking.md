@@ -71,7 +71,8 @@ Pour pouvoir respecter toutes ces contraintes, une solution est d'introduire un 
 </p>
 
 {: .box-error}
-**Inconvénients :** - En introduisant un nouvel acteur, le coût de la solution est bien plus élevé
+**Inconvénients :**
+* En introduisant un nouvel acteur, le coût de la solution est bien plus élevé
 
 # Conclusion
 
