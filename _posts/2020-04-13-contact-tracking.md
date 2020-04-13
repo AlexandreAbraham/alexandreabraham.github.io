@@ -64,9 +64,9 @@ Maintenant que nous avons vu les forces et les faiblesses de plusieurs systèmes
 
 Pour pouvoir respecter toutes ces contraintes, une solution est d'introduire un nouvel acteur dans notre système qui sera en charge de réaliser l'identification et de conserver notre système en charge de trouver les personnes mises en contact. En faisant cela, nous voyons qu'à aucun moment il n'est par exemple possible de savoir qu'un potentiel infecté est présent dans la maison de Bob car il n'est jamais fait de lien entre l'identité de Bob et ses différentes localisations.
 
-{: .box-note}
 **Avantages :** - Robuste aux pannes
 - Croiser les informations pour obtenir les déplacements d'une personne est très complexe
+{: .box-note}
 
 {: .box-error}
 **Inconvénients :** - En introduisant un nouvel acteur, le coût de la solution est bien plus élevé
