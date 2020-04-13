@@ -71,6 +71,8 @@ Pour pouvoir respecter toutes ces contraintes, une solution est d'introduire un 
 </p>
 
 {: .box-error}
+Test
+
 **Inconvénients :**
 * En introduisant un nouvel acteur, le coût de la solution est bien plus élevé
 
