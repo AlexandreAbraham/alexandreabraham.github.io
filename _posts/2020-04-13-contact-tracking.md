@@ -19,10 +19,10 @@ Pour ce premier scénario extrême, nous prenons le pire scénario : celui où l
 ![Solution 1984](/img/map_1.png){: .center-block :}
 
 {: .box-note}
-**Avantages :** - Système robuste et sûr : toutes les personnes contaminées peuvent être identifiées
+**Avantages :** Système robuste et sûr : toutes les personnes contaminées peuvent être identifiées
 
 {: .box-error}
-**Inconvénients :** - Un système mal intentionné peut tirer partie des informations utilisateurs
+**Inconvénients :** Un système mal intentionné peut tirer partie des informations utilisateurs
 
 # Solution 2 : Anarchy in the UK
 
@@ -33,10 +33,10 @@ La deuxième solution est une décentralisation totale. Le téléphone va se con
 Le problème ici est que la confiance réside entièrement dans les utilisateurs. Ainsi, si un personne ne veut pas être mise en quarantaine, elle peut décider de ne pas donner de signal. De même, si un téléphone tombe en panne, c'est tout l'historique de cette personne qui est perdu.
 
 {: .box-note}
-**Avantages :** - Anonymisation totale
+**Avantages :** Anonymisation totale
 
 {: .box-error}
-**Inconvénients :** - Peu résilient aux pannes
+**Inconvénients :** Peu résilient aux pannes
 
 # Solution 3 : FBI, Fausse Bonne Idée
 
@@ -46,12 +46,16 @@ On pourrait maintenant penser qu'associer les deux solutions précédentes serai
 
 Ce procédé qui consiste à remplacer le nom d'une personne par un identifiant unique est appelé "pseudonymisation". Pour que celui-ci soit efficace, il faut non seulement remplacer le nom par un pseudonyme mais il faut également s'assurer que les autres informations présentes dans les données ne permettent pas d'identification. Or, si l'on possède l'historique de localisation d'une personne, il est relativement aisé de l'identifier à condition d'avoir accès à quelques informations supplémentaires. Si l'on possède l'adresse d'une personne et son lieu de travail, il doit être relativement simple de retrouver son identifiant unique par exemple.
 
-{: .box-note}
-**Avantages :** - Robuste aux pannes
-- Sans information complémentaire, identifier une personne est difficile
+<div class='box-note'>
+  <strong>Avantages :</strong>
+  <ul>
+    <li> Robuste aux pannes </li>
+    <li> Sans information complémentaire, identifier une personne est difficile </li>
+  </ul>
+</div>
 
 {: .box-error}
-**Inconvénients :** - Trouver les informations nécessaires pour identifier une personne en particulier n'est pas très difficile.
+**Inconvénients :** Trouver les informations nécessaires pour identifier une personne en particulier n'est pas très difficile.
 
 # Solution 4 : Un bon compromis
 
@@ -64,17 +68,20 @@ Maintenant que nous avons vu les forces et les faiblesses de plusieurs systèmes
 
 Pour pouvoir respecter toutes ces contraintes, une solution est d'introduire un nouvel acteur dans notre système qui sera en charge de réaliser l'identification et de conserver notre système en charge de trouver les personnes mises en contact. En faisant cela, nous voyons qu'à aucun moment il n'est par exemple possible de savoir qu'un potentiel infecté est présent dans la maison de Bob car il n'est jamais fait de lien entre l'identité de Bob et ses différentes localisations.
 
-<p class='box-note'>
-**Avantages :**
-- Robuste aux pannes
-- Croiser les informations pour obtenir les déplacements d'une personne est très complexe
-</p>
+<div class='box-note'>
+  <strong>Avantages :</strong>
+  <ul>
+    <li> Robuste aux pannes </li>
+    <li> Croiser les informations pour obtenir les déplacements d'une personne est très complexe </li>
+  </ul>
+</div>
 
-{: .box-error}
-Test
-
-**Inconvénients :**
-* En introduisant un nouvel acteur, le coût de la solution est bien plus élevé
+<div class='box-error'>
+  <strong>Inconvénients :</strong>
+  <ul>
+    <li> En introduisant un nouvel acteur, le coût de la solution est bien plus élevé</li>
+  </ul>
+</div>
 
 # Conclusion
 
