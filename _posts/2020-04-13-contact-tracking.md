@@ -1,6 +1,6 @@
 ---
-title: Le "privacy by design" pour le suivi de contacts
-subtitle: L'État nous traque-t-il ?
+title: Comment tracer les contacts et respecter la vie privée
+subtitle: L'État veut-il nous traquer ?
 ---
 
 J'entends de grandes inquiétudes sur le fonctionnement du suivi contacts qui sera instauré en France pour prévenir la propagation du COVID-19. J'entends en particulier des craintes concernant la sécurité des informations et la capacité de l'État à utiliser ces informations pour traquer les citoyens.
