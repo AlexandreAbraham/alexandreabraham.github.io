@@ -54,7 +54,7 @@ We recognize the ceiling operator. However, there is an additional rounding perf
 
 Let us remove this cast and compute what would be the same values in that case.
 
-| i   |    $s = 4$    |    $s = 3$    |    $s = 2$    |    $s = 1$    |    $s = 0$    |
+| i   |    $$s = 4$$    |    $s = 3$    |    $s = 2$    |    $s = 1$    |    $s = 0$    |
 | ^   | $n_i$ | $r_i$ | $n_i$ | $r_i$ | $n_i$ | $r_i$ | $n_i$ | $r_i$ | $n_i$ | $r_i$ |
 | :-- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 0   | 81    | 1     | 34    | 3     | 15    | 9     | 8     | 27    | 5     | 81    |
