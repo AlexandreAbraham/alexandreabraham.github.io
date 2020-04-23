@@ -54,16 +54,16 @@ We recognize the ceiling operator. However, there is an additional rounding perf
 
 Let us remove this cast and compute what would be the same values in that case.
 
-| i   |    $$s = 4$$    |    $s = 3$    |    $s = 2$    |    $s = 1$    |    $s = 0$    |
-| ^   | $n_i$ | $r_i$ | $n_i$ | $r_i$ | $n_i$ | $r_i$ | $n_i$ | $r_i$ | $n_i$ | $r_i$ |
-| :-- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| 0   | 81    | 1     | 34    | 3     | 15    | 9     | 8     | 27    | 5     | 81    |
-| 1   | 27    | 3     | 11    | 9     | 5     | 27    | 2     | 81    |       |       |
-| 2   | 9     | 9     | 3     | 27    | 1     | 81    |       |       |       |       |
-| 3   | 3     | 27    | 1     | 81    |       |       |       |       |       |       |
-| 4   | 1     | 81    |       |       |       |       |       |       |       |       |
-| --- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | 
-|     |  >    |  405  |  >    |  363  |  >    |  351  |  >    |  378  |  >    |  405  |
+|       |   $$s = 4$$   |   $$s = 3$$   |   $$s = 2$$   |   $$s = 1$$   |   $$s = 0$$   |
+| $$i$$ | $n_i$ | $r_i$ | $n_i$ | $r_i$ | $n_i$ | $r_i$ | $n_i$ | $r_i$ | $n_i$ | $r_i$ |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| 0     | 81    | 1     | 34    | 3     | 15    | 9     | 8     | 27    | 5     | 81    |
+| 1     | 27    | 3     | 11    | 9     | 5     | 27    | 2     | 81    |       |       |
+| 2     | 9     | 9     | 3     | 27    | 1     | 81    |       |       |       |       |
+| 3     | 3     | 27    | 1     | 81    |       |       |       |       |       |       |
+| 4     | 1     | 81    |       |       |       |       |       |       |       |       |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | 
+|       |      405      |      363      |      351      |      378      |      405      |
 
 The total budget is now 1902 which is closer to the ideal of 2025. One important thing to notice is that we have value rounding from one line to the other. If you take a look at the values of $n_i$ when $s = 3$, it starts at 34 and drops to 11. We are now using the floor operator of the green variable in the algorithm.
 
