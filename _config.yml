@@ -205,6 +205,8 @@ prose:
   ignore:
     - 404.html
     - test.html
+    - Blog%20-%20Dataiku_files/
+    - Blog - Dataiku_files/
     - LICENSE
     - feed.xml
     - _config.yml
