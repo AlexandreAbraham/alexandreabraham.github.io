@@ -207,6 +207,7 @@ prose:
     - test.html
     - Blog%20-%20Dataiku_files/
     - Blog - Dataiku_files/
+    - test.html/
     - LICENSE
     - feed.xml
     - _config.yml
