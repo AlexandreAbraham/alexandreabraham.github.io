@@ -21,6 +21,7 @@ url: "https://twinee.fr"
 # List of links in the navigation bar
 navbar-links:
   Blog: "blog"
+  Brocante: "brocante"
   Publications: "publications"
   # Art: "art"
   # About Me: "aboutme"
