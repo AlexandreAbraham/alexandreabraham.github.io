@@ -65,3 +65,23 @@ Prix du lot (machine + tamper): 115€. Possibilité de venir l'essayer sur Baze
 Moulin à café Graef CM802EU acheté le 13/03/2019, donc encore sous garantie. Je l'ai acheté 142€ grâce à une offre mais il coûte encore 189€ neuf sur [Maxicoffee](https://www.maxicoffee.com/moulin-cafe-cm802eu-graef-offre-cadeaux-p-17920.html). Moulin à meules coniques en acier. Ce n'est pas un moulin millimétrique mais très franchement il convient très bien pour faire des espressos je trouve. Il est noir, avec un châssis aluminium, et il permet de moudre du café sur demande pour le mettre directement dans le percolateur !
 
 Prix: 130€. Possibilité de venir l'essayer sur Bazemont.
+
+## Nespresso U automatique couleur taupe
+
+Les Nespresso U ont l'avantage d'être entièrement automatiques (on met la capsule, elle fait le café et éjecte la capsule automatiquement). Elle a quelques années (c'était ma machine avant la Kottea) mais elle est en bon état.
+
+Prix: 50€
+
+[Voir la machine sur le site Pogioshop.](https://www.pogioshop.be/electromenager/petit-electromenager/65306-krups-yy1300-machine-a-cafe-expresso-a-capsules-3700342412796.html)
+
+## Spécial T rouge
+
+La spécial T est la Nespresso du thé. Elle fonctionne avec des capsules (il m'en reste un carton que je fournis avec). Le modèle que je vends est le premier modèle de la machine, plus gros que les modèles vendu dans le commerce mais il permet de personnaliser la température et le temps d'infusion du thé.
+
+Prix : 20€
+
+# Peintures
+
+Je vends de petites peintures. Si vous êtes intéressés, contactez-moi directement pour éviter la commission Etsy !
+
+[Accéder à la boutique.](https://www.etsy.com/shop/goulagman)
