@@ -7,4 +7,4 @@ subtitle: Les choses à vendre
 # Jeux
 
 ## Linq
-![Linq](/img/brocante/linq.jpg)
+![Linq](/img/brocante/linq.jpg | width=100)
