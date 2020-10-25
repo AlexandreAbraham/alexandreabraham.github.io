@@ -8,3 +8,5 @@ subtitle: Les choses à vendre
 
 ## Linq
 ![Linq](/img/brocante/linq.jpg | width=100)
+![Linq](/img/brocante/linq.jpg =100)
+<img src="/img/brocante/linq.jpg" width="50%" />
