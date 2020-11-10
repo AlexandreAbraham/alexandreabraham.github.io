@@ -11,6 +11,6 @@ However, Active Learning is used most of the time for one-shot experiments. How 
 
 [Cardinal](https://dataiku.github.io/cardinal) answers this question by providing metrics guiding the practitioner in its decision. Contrary to common metrics that are based on a left-out labeled set, our metrics are completely unsupervised and can be computed without any additional cost. In our experiments, cardinal not only helped select the best strategy but even outperformed it in some cases! See [this example](https://dataiku.github.io/cardinal/auto_examples/plot_digits_metrics.html#sphx-glr-auto-examples-plot-digits-metrics-py) for more information.
 
-![Active learning results](/img/cardinal_best.png)
-
 Want to know more? Attend my [PyData talk](https://global.pydata.org/talks/139) on Friday at 9:30am and 1:15pm UTC!
+
+![Active learning results](/img/cardinal_best.png)
