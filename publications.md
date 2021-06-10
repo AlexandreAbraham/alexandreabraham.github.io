@@ -4,6 +4,13 @@ title: Publications
 subtitle: My research work
 ---
 
+# Active Learning
+
+[**Rebuilding Trust in Active Learning with Actionable Metrics.**](https://arxiv.org/pdf/1611.06066.pdf) —
+***Abraham A***, *Dreyfus-Schmidt L* —
+ICDMW 2020
+
+
 # Functional Neuroimaging
 
 [**Deriving reproducible biomarkers from multi-site resting-state data: An Autism-based example.**](https://arxiv.org/pdf/1611.06066.pdf) —
