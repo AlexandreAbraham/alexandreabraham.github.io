@@ -50,16 +50,6 @@ Prix: 20€
 
 # Autour du café
 
-## Machine à percolateur Kottea KC106
-
-Machine à percolateur, remplace idéalement une Nespresso pour enfin arrêter les capsules ! Ce modèle est la génération juste avant la [Kottea KC150](https://www.maxicoffee.com/machine-expresso-manuelle-kottea-ck150s-dose-programmable-p-77088.html), la seule différence étant le réducteur de flux sur le porte-filtre. Achetée le 24/01/2019 pour 150€, elle est donc encore sous garantie. Je la vend avec un tamper adapté acheté 20€ (sans tamper, la machine ne vaut pas trop le coup). L'aspect de la machine n'est pas des plus modernes, mais elle fait du très bon café, elle chauffe rapidement, et elle est simple à nettoyer. Elle est livrée avec des filtres simples (espresso) et des filtres pressurisés (pour café déjà moulu acheté dans le commerce).
-
-J'en suis très satisfait mais étant donné que je travaille de la maison, j'ai opté pour une machine automatique qui me permet de faire plus de boissons plus facilement. Autrement, je l'aurai gardée ! S'associe parfaitement au moulin vendu juste en-dessous.
-
-Prix du lot (machine + tamper): 115€. Possibilité de venir l'essayer sur Bazemont.
-
-<img src="/img/brocante/kottea.jpg" style="align:center; width:30%; display: block; margin-left: auto; margin-right: auto;" />
-
 ## Moulin à café Graef CM802EU 
 
 Moulin à café Graef CM802EU acheté le 13/03/2019, donc encore sous garantie. Je l'ai acheté 142€ grâce à une offre mais il coûte encore 189€ neuf sur [Maxicoffee](https://www.maxicoffee.com/moulin-cafe-cm802eu-graef-offre-cadeaux-p-17920.html). Moulin à meules coniques en acier. Ce n'est pas un moulin millimétrique mais très franchement il convient très bien pour faire des espressos je trouve. Il est noir, avec un châssis aluminium, et il permet de moudre du café sur demande pour le mettre directement dans le percolateur !
@@ -82,6 +72,4 @@ Prix : 20€
 
 # Peintures
 
-Je vends de petites peintures. Si vous êtes intéressés, contactez-moi directement pour éviter la commission Etsy !
-
-[Accéder à la boutique.](https://www.etsy.com/shop/goulagman)
+Je vends de petites peintures. Si vous êtes intéressés, contactez-moi directement !
