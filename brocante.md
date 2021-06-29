@@ -6,6 +6,21 @@ subtitle: Les choses à vendre
 
 # Jeux
 
+## Micro macro: crime city
+
+Bienvenue à Crime City ! Une ville où le crime se cache à
+chaque coin de rue. De sombres secrets, des
+vols sournois, des crimes de sang-froid, sont monnaie courante ici. La police n'arrive plus à faire face...
+C'est pourquoi nous avons besoin de vous !
+Vos compétences en observation et en déductionsont requises !
+
+Prix: 15€
+
+[Plus d'informations.](https://www.trictrac.net/jeu-de-societe/micromacro-crime-city)
+
+<img src="/img/brocante/micro_macro.jpg" style="align:center; width:25%; display: block; margin-left: auto; margin-right: auto;" />
+
+
 ## Exit: L'affaire du mississippi
 
 Nous sommes en 1872. Vous êtes une équipe d’enquêteurs à bord d’un bateau à roue à aubes en direction de La Nouvelle-Orléans,
