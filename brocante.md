@@ -26,6 +26,16 @@ Prix: 20€
 
 <img src="/img/brocante/asylum.jpg" style="align:center; width:25%; display: block; margin-left: auto; margin-right: auto;" />
 
+## Escape game: La casa de papel
+
+Escape game dans le thème de la série Netflix. Il n'est pas nécessaire d'avoir vu la série pour jouer (je ne l'ai pas vue).
+
+Prix: 10€
+
+[Plus d'informations](https://www.editions-larousse.fr/livre/escape-game-la-casa-de-papel-parties-3-4-sauvez-rio-9782035976437)
+
+<img src="/img/brocante/casa.jpg" style="align:center; width:25%; display: block; margin-left: auto; margin-right: auto;" />
+
 
 ## Le pendule des morts
 
@@ -54,8 +64,3 @@ Prix: 50€
 
 [Voir la machine sur le site Pogioshop.](https://www.pogioshop.be/electromenager/petit-electromenager/65306-krups-yy1300-machine-a-cafe-expresso-a-capsules-3700342412796.html)
 
-## Spécial T rouge
-
-La spécial T est la Nespresso du thé. Elle fonctionne avec des capsules (il m'en reste un carton que je fournis avec). Le modèle que je vends est le premier modèle de la machine, plus gros que les modèles vendu dans le commerce mais il permet de personnaliser la température et le temps d'infusion du thé.
-
-Prix : 20€
