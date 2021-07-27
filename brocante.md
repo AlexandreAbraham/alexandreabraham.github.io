@@ -6,32 +6,6 @@ subtitle: Les choses à vendre
 
 # Jeux
 
-## Micro macro: crime city
-
-Bienvenue à Crime City ! Une ville où le crime se cache à
-chaque coin de rue. De sombres secrets, des
-vols sournois, des crimes de sang-froid, sont monnaie courante ici. La police n'arrive plus à faire face...
-C'est pourquoi nous avons besoin de vous !
-Vos compétences en observation et en déductionsont requises !
-
-Prix: 15€
-
-[Plus d'informations.](https://www.trictrac.net/jeu-de-societe/micromacro-crime-city)
-
-<img src="/img/brocante/micro_macro.jpg" style="align:center; width:25%; display: block; margin-left: auto; margin-right: auto;" />
-
-
-## Exit: L'affaire du mississippi
-
-Nous sommes en 1872. Vous êtes une équipe d’enquêteurs à bord d’un bateau à roue à aubes en direction de La Nouvelle-Orléans,
-où on vous attend pour une affaire. Mais un vol est commis au cours du voyage et vos compétences deviennent nécessaires plus tôt que prévu, alors que vous êtes encore à bord. Êtes-vous prêts à mener l’enquête ?
-
-Prix: 10€
-
-[Plus d'informations.](https://www.trictrac.net/jeu-de-societe/exit-laffaire-du-mississippi)
-
-<img src="/img/brocante/exit_mississipi.jpg" style="align:center; width:25%; display: block; margin-left: auto; margin-right: auto;" />
-
 ## Suspects
 
 Suspects est une série de jeux d’enquête aux règles minimalistes et aux intrigues riches, centrées sur les personnages à la manière des romans d’Agatha Christie. 
@@ -41,17 +15,6 @@ Prix: 20€
 [Plus d'informations.](https://www.trictrac.net/jeu-de-societe/suspects)
 
 <img src="/img/brocante/suspects.jpg" style="align:center; width:25%; display: block; margin-left: auto; margin-right: auto;" />
-
-## Linq
-
-Trouvez les paires d'espions parmi les joueurs ! 4 à 8 joueurs. Neuf encore sous emballage.
-
-Prix: 10€
-
-[Plus d'informations.](https://www.trictrac.net/jeu-de-societe/linq)
-
-<img src="/img/brocante/linq.jpg" style="align:center; width:25%; display: block; margin-left: auto; margin-right: auto;" />
-
 
 ## Escape from the asylum
 
@@ -73,15 +36,6 @@ Prix: 5€
 [Plus d'informations.](https://www.trictrac.net/jeu-de-societe/50-clues-le-pendule-des-morts)
 
 <img src="/img/brocante/pendule.jpg" style="align:center; width:25%; display: block; margin-left: auto; margin-right: auto;" />
-
-
-## Les catacombes de l'effroi
-
-Escape game de la série Exit. Deux parties de 60 minutes. Joué une fois.
-
-Prix: 15€
-
-<img src="/img/brocante/catacombes.jpg" style="align:center; width:25%; display: block; margin-left: auto; margin-right: auto;" />
 
 
 # Autour du café
