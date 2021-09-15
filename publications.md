@@ -4,7 +4,16 @@ title: Publications
 subtitle: My research work
 ---
 
+# COVID-19
+
+[**Identification and validation of Triamcinolone and Gallopamil as treatments for early COVID-19 via an in silico repurposing pipeline**](https://arxiv.org/pdf/2107.02905.pdf) — *MacMahon M, Hwang W, Yim S, MacMahon E,* ***Abraham A***, *Barton J, Tharmakulasingam M, Bilokon P, Gaddi VP, Han, N.* — Submitted
+
 # Active Learning
+
+[**Sample Noise Impact on Active Learning.**](https://arxiv.org/pdf/2109.01372.pdf) —
+***Abraham A***, *Dreyfus-Schmidt L* —
+IAL Workshop at ECML PKDD 2021
+
 
 [**Rebuilding Trust in Active Learning with Actionable Metrics.**](https://arxiv.org/pdf/1611.06066.pdf) —
 ***Abraham A***, *Dreyfus-Schmidt L* —
