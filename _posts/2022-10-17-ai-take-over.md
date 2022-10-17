@@ -13,3 +13,13 @@ Original:
 Inpainted with Dall-e:
 <img src="/img/borgognone.png" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
 
+## Marco Marziale
+
+I found that the portrait resembles of the 4th doctor so I tried to give it that look a bit while getting some manga vibes!
+
+Original:
+<img src="/img/marziale.jpg" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
+
+Modified and inpainted using stable diffusion:
+<img src="/img/marziale.png" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
+
