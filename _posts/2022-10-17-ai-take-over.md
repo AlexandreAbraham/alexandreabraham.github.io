@@ -23,3 +23,13 @@ Original:
 Modified and inpainted using stable diffusion:
 <img src="/img/marziale.png" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
 
+## Bronzino
+
+I found that the portrait resembles of the 4th doctor so I tried to give it that look a bit while getting some manga vibes!
+
+Original:
+<img src="/img/christ_jardinier_original.jpg" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
+
+Modified and inpainted using stable diffusion:
+<img src="/img/christ_jardinier.png" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
+
