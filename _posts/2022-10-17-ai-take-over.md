@@ -42,3 +42,13 @@ Original:
 
 Modified with Img2Img using stable diffusion:
 <img src="/img/saint_michel_terrassant_le_demon.png" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
+
+## Raphael
+
+Ceres.
+
+Original:
+<img src="/img/ceres.jpg" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
+
+Modified with Img2Img using stable diffusion:
+<img src="/img/ceres_best.png" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
