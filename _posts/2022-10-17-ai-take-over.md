@@ -25,7 +25,7 @@ Modified and inpainted using stable diffusion:
 
 ## Bronzino
 
-I found that the portrait resembles of the 4th doctor so I tried to give it that look a bit while getting some manga vibes!
+Jesus Christ at the fashion week
 
 Original:
 <img src="/img/christ_jardinier_original.jpg" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
@@ -33,3 +33,12 @@ Original:
 Modified and inpainted using stable diffusion:
 <img src="/img/christ_jardinier.png" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
 
+## Raphael
+
+A modern warfare interpretation of Saint Michel killing the demon.
+
+Original:
+<img src="/img/saint_michel_terrassant_le_demon_original.jpg" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
+
+Modified with Img2Img using stable diffusion:
+<img src="/img/saint_michel_terrassant_le_demon.png" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
