@@ -52,3 +52,14 @@ Original:
 
 Modified with Img2Img using stable diffusion:
 <img src="/img/ceres_best.png" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
+
+
+## Leonardo Da Vinci
+
+Joconde
+
+Original:
+<img src="/img/joconde_original.jpg" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
+
+Modified with Img2Img using stable diffusion:
+<img src="/img/joconde_high.png" style="align:center; width:100%; display: block; margin-left: auto; margin-right: auto;" />
