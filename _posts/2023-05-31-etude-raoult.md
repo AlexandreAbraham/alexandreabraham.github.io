@@ -10,6 +10,8 @@ Nous n'aurons donc pas cette fois à deviner le contenu des cohortes et simuler 
 Note : Je pense que les spécialistes en statistiques arriveront très bien à mener leurs propres études. Ce post est donc destiné aux
 néophytes, il a donc été fait pour être accessible au plus grand nombre.
 
+Seconde note : Une étude vachement mieux faite mais plus proche du papier a été faite par "le statisticien" dispo [ici](https://www.youtube.com/watch?v=Iauq3c69YvE).
+
 TL;DR: Je fais dans ce blog post une analyse rapide qui montre que la publication a les mêmes travers que les précédentes. N'ayant pas
 réussi à reproduire exactement les résultats de l'étude (des indications méthodologiques comme le traitement des données manquantes ne
 sont pas explicites), je pratique une analyse plus simple et accessible à tous. On voit alors que les données-mêmes fournies par l'IHU
