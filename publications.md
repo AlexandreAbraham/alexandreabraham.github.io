@@ -1,8 +1,10 @@
 ---
 layout: page
 title: Publications
-subtitle: Access all articles on my [Google scholar profile](https://scholar.google.com/citations?user=__-U_CcAAAAJ&hl=fr&oi=ao).
+subtitle: Research works, personal and professional.
 ---
+
+Access all articles on my [Google scholar profile](https://scholar.google.com/citations?user=__-U_CcAAAAJ&hl=fr&oi=ao).
 
 # Causal inference for Medical Analysis
 
