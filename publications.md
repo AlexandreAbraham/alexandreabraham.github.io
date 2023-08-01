@@ -1,14 +1,32 @@
 ---
 layout: page
 title: Publications
-subtitle: My research work
+subtitle: Access all articles on my [Google scholar profile](https://scholar.google.com/citations?user=__-U_CcAAAAJ&hl=fr&oi=ao).
 ---
+
+# Causal inference for Medical Analysis
+
+[**Clinical Impact of a Universal Remote Monitoring Platform for ICD and CRT-D Follow-up from a Large Real-World Registry.**](https://www.sciencedirect.com/science/article/pii/S154752712302204X) —
+*Varma N, Marijon E,* ***Abraham A***, *Ibnouhsein I, Bonnet JL, Rosier A, Singh J* —
+HRS 2023 Late Breaking Clinical Trials
 
 # COVID-19
 
 [**Identification and validation of Triamcinolone and Gallopamil as treatments for early COVID-19 via an in silico repurposing pipeline**](https://arxiv.org/pdf/2107.02905.pdf) — *MacMahon M, Hwang W, Yim S, MacMahon E,* ***Abraham A***, *Barton J, Tharmakulasingam M, Bilokon P, Gaddi VP, Han, N.* — Submitted
 
-# Active Learning
+# Active Learning and Model Uncertainty Estimation
+
+[**OpenAL: Evaluation and Interpretation of Active Learning Strategies.**](https://arxiv.org/pdf/2109.01372.pdf) —
+*Jonas W,* ***Abraham A***, *Dreyfus-Schmidt L* —
+NeurIPS 2022 Workshop on Human in the Loop Learning
+
+[**Towards Clear Expectations for Uncertainty Estimation.**](https://arxiv.org/abs/2207.13341) —
+*Bouvier V, Maggio S,* ***Abraham A***, *Dreyfus-Schmidt L* —
+ICLR 2022 Workshop on ML Evaluation Standards
+
+[**Cardinal, a metric-based Active learning framework.**](https://www.softwareimpacts.com/article/S2665-9638(22)00017-3/fulltext) —
+***Abraham A***, *Dreyfus-Schmidt L* —
+Software Impacts
 
 [**Sample Noise Impact on Active Learning.**](https://arxiv.org/pdf/2109.01372.pdf) —
 ***Abraham A***, *Dreyfus-Schmidt L* —
