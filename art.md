@@ -19,4 +19,4 @@ Vous pouvez consulter mes peintures sur ma boutique [Etsy](https://www.etsy.com/
 
 Pour ce qui est des productions plus concrètes, je m'essaie au tour à bois et à la sculpture. Pour ces activités, je favorise la revalorisation des matériaux. J'utilise donc du bois issu d'élagage, divers déchets que je peux trouver, et du cuir issu de chutes d'ameublement.
 
-Pour l'instant je garde une petite galerie d'objets sur ma page Facebook.
+Pour l'instant je garde une petite galerie d'objets sur ma page [Facebook](https://www.facebook.com/goulagpaint/).
