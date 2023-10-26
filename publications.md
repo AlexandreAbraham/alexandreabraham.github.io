@@ -14,7 +14,7 @@ HRS 2023 Late Breaking Clinical Trials
 
 # COVID-19
 
-[**Identification and validation of Triamcinolone and Gallopamil as treatments for early COVID-19 via an in silico repurposing pipeline**](https://arxiv.org/pdf/2107.02905.pdf) — *MacMahon M, Hwang W, Yim S, MacMahon E,* ***Abraham A***, *Barton J, Tharmakulasingam M, Bilokon P, Gaddi VP, Han, N.* — Submitted
+[**An in silico drug repurposing pipeline to identify drugs with the potential to inhibit SARS-CoV-2 replication**](https://www.sciencedirect.com/science/article/pii/S2352914823002332) — *MacMahon M, Hwang W, Yim S, MacMahon E,* ***Abraham A***, *Barton J, Tharmakulasingam M, Bilokon P, Gaddi VP, Han, N.* — Informatics in Medicine Unlocked
 
 # Active Learning and Model Uncertainty Estimation
 
