@@ -7,7 +7,8 @@ If you landed on this page, you may have scanned the QR code on my poster at ECM
 
 Here are all the resources about our paper:
 * [The paper](https://arxiv.org/abs/2407.14861)
-* The poster (to be added)
+* [The poster](/dload/poster.pdf)
+* [The code repository](https://github.com/AlexandreAbraham/popmatch)
 * The slides of my talk (to be added)
 
 If you have any question and want to contact me, my email is in the paper, but here is my [linkedin account](https://www.linkedin.com/in/alexandreabraham/).
