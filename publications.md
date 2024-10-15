@@ -8,6 +8,10 @@ Access all articles on my [Google scholar profile](https://scholar.google.com/ci
 
 # Causal inference for Medical Analysis
 
+[**Improving Bias Correction Standards by Quantifying its Effects on Treatment Outcomes**](https://arxiv.org/abs/2407.14861) —
+***Abraham A*** and *Andrés Hoyos Idrobo* —
+HLDM workshop at ECML PKDD 2024
+
 [**Clinical Impact of a Universal Remote Monitoring Platform for ICD and CRT-D Follow-up from a Large Real-World Registry.**](https://www.sciencedirect.com/science/article/pii/S154752712302204X) —
 *Varma N, Marijon E,* ***Abraham A***, *Ibnouhsein I, Bonnet JL, Rosier A, Singh J* —
 HRS 2023 Late Breaking Clinical Trials
