@@ -3,8 +3,6 @@ title: Mastering Research Papers
 subtitle: A Beginner’s Guide to Reading Smarter, Not Harder
 ---
 
-## Introduction
-
 Reading research papers can feel overwhelming, but there are two main ways to approach it. If you want to build a strong theoretical foundation, start with influential papers and structured resources. If you have a specific goal, focus on practical methods to reach it quickly. This guide covers both paths so you can choose the one that works best for you.
 
 ## Theoretical Approach
