@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>neuralk Inference</title>
+  <style>
+    :root {
+      --accent: #1a73e8;
+      --accent-hover: #1557b0;
+      --bg: #fafafa;
+      --surface: #ffffff;
+      --text: #323130;
+      --text-secondary: #605e5c;
+      --border: #d2d0ce;
+      --error: #d13438;
+      --success: #107c10;
+      --radius: 4px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 13px;
+      color: var(--text);
+      background: var(--bg);
+      padding: 16px;
+      line-height: 1.4;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--accent);
+    }
+
+    .header h1 {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .header .subtitle {
+      font-size: 11px;
+      color: var(--text-secondary);
+    }
+
+    .section { margin-bottom: 16px; }
+
+    .section-title {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: var(--text);
+    }
+
+    input[type="text"],
+    input[type="password"],
+    select {
+      width: 100%;
+      padding: 7px 10px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 13px;
+      font-family: inherit;
+      color: var(--text);
+      background: var(--surface);
+      outline: none;
+      transition: border-color 0.15s;
+    }
+
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    select:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 1px var(--accent);
+    }
+
+    .field { margin-bottom: 10px; }
+
+    .field-hint {
+      font-size: 11px;
+      color: var(--text-secondary);
+      margin-top: 2px;
+    }
+
+    .radio-group, .checkbox-group {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-top: 4px;
+    }
+
+    .radio-group label, .checkbox-group label {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-weight: 400;
+      cursor: pointer;
+      margin-bottom: 0;
+    }
+
+    input[type="radio"], input[type="checkbox"] {
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
+
+    .btn-predict {
+      width: 100%;
+      padding: 10px 16px;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      font-size: 14px;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: background 0.15s;
+      margin-top: 8px;
+    }
+
+    .btn-predict:hover { background: var(--accent-hover); }
+    .btn-predict:disabled { background: var(--border); cursor: not-allowed; }
+
+    .status-area {
+      margin-top: 14px;
+      padding: 10px 12px;
+      border-radius: var(--radius);
+      font-size: 12px;
+      line-height: 1.5;
+      min-height: 40px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .status-area.error { border-color: var(--error); color: var(--error); background: #fdf3f4; }
+    .status-area.success { border-color: var(--success); color: var(--success); background: #f3faf3; }
+    .status-area.working { border-color: var(--accent); color: var(--accent); background: #f0f6fe; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div>
+      <h1>neuralk</h1>
+      <div class="subtitle">ML Inference for Excel</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Data Ranges</div>
+    <div class="field">
+      <label for="range-xtrain">X_train range</label>
+      <input type="text" id="range-xtrain" placeholder="e.g. A1:C100" />
+    </div>
+    <div class="field">
+      <label for="range-ytrain">y_train range</label>
+      <input type="text" id="range-ytrain" placeholder="e.g. D1:D100" />
+    </div>
+    <div class="field">
+      <label for="range-xtest">X_test range</label>
+      <input type="text" id="range-xtest" placeholder="e.g. A101:C120" />
+    </div>
+    <div class="field">
+      <label for="range-output">Output range</label>
+      <input type="text" id="range-output" placeholder="auto (next to X_test)" />
+      <div class="field-hint">Leave empty to auto-place results next to X_test.</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Configuration</div>
+    <div class="field">
+      <label for="api-key">API Key</label>
+      <input type="password" id="api-key" placeholder="nk_live_..." />
+    </div>
+    <div class="field">
+      <label for="model-select">Model</label>
+      <select id="model-select">
+        <option value="nicl-flash">nicl-flash</option>
+        <option value="nicl-small" selected>nicl-small</option>
+        <option value="nicl-large">nicl-large</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Task</label>
+      <div class="radio-group">
+        <label><input type="radio" name="task" value="classification" checked /> Classification</label>
+        <label><input type="radio" name="task" value="regression" /> Regression</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="checkbox-group">
+        <label><input type="checkbox" id="return-proba" checked /> Return probabilities</label>
+      </div>
+    </div>
+  </div>
+
+  <button id="btn-predict" class="btn-predict" disabled>Predict</button>
+
+  <div id="status" class="status-area">Ready. Fill in the ranges and API key to begin.</div>
+
+  <script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+  <script src="taskpane.js"></script>
+</body>
+</html>
