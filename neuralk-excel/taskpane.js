@@ -1,6 +1,6 @@
 /* global Office, Excel */
 
-var API_URL = "https://api.prediction.neuralk-ai.com/api/v1/inference";
+var API_URL = "https://neuralk-excel-proxy.alexandre-abraham.workers.dev";
 var STORAGE_KEY = "neuralk_api_key";
 var MAX_RETRIES = 3;
 
