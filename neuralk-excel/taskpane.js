@@ -231,25 +231,36 @@ function predict() {
   }
 
   elBtnPredict.disabled = true;
-  setStatus("Reading data from Excel...", "working");
 
   var xTrainData, yTrainData, xTestData;
+  var step = "";
 
-  readRange(xTrainAddr)
+  Promise.resolve()
+    .then(function () {
+      step = "Reading X_train (" + xTrainAddr + ")";
+      setStatus(step + "...", "working");
+      return readRange(xTrainAddr);
+    })
     .then(function (data) {
       xTrainData = data;
+      step = "Reading y_train (" + yTrainAddr + ")";
+      setStatus(step + "...", "working");
       return readRange(yTrainAddr);
     })
     .then(function (data) {
       yTrainData = data;
+      step = "Reading X_test (" + xTestAddr + ")";
+      setStatus(step + "...", "working");
       return readRange(xTestAddr);
     })
     .then(function (data) {
       xTestData = data;
 
-      setStatus("Validating data...", "working");
+      step = "Validating";
+      setStatus(step + "...", "working");
       validate(xTrainData, yTrainData, xTestData);
 
+      step = "Calling API";
       setStatus(
         "Calling neuralk API (" + model + ")...\n" +
         "Train: " + xTrainData.length + " rows x " + xTrainData[0].length + " features\n" +
@@ -268,6 +279,7 @@ function predict() {
         throw new Error("API returned no predictions. Response: " + JSON.stringify(result));
       }
 
+      step = "Writing results";
       setStatus("Writing " + predictions.length + " predictions...", "working");
       return writeResults(predictions, probabilities, outputAddr || null, xTestAddr);
     })
@@ -275,7 +287,7 @@ function predict() {
       setStatus("Done. Predictions written successfully.", "success");
     })
     .catch(function (err) {
-      setStatus("Error: " + err.message, "error");
+      setStatus("Error at step [" + step + "]: " + err.message, "error");
     })
     .then(function () {
       elBtnPredict.disabled = false;
