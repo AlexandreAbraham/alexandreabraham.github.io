@@ -90,11 +90,12 @@ function writeResults(predictions, probabilities, outputAddress, xTestAddress) {
     var sheet = context.workbook.worksheets.getActiveWorksheet();
     var startRange;
 
+    // Always use just the top-left cell as the starting point
     if (outputAddress) {
-      startRange = sheet.getRange(outputAddress);
+      startRange = sheet.getRange(outputAddress).getCell(0, 0);
     } else {
       var xTestRange = sheet.getRange(xTestAddress);
-      startRange = xTestRange.getLastColumn().getOffsetRange(0, 1);
+      startRange = xTestRange.getLastColumn().getOffsetRange(0, 1).getCell(0, 0);
     }
 
     var rows = predictions.length;
