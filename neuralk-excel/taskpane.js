@@ -70,11 +70,18 @@ function setStatus(message, type) {
 function readRange(rangeAddress) {
   return Excel.run(function (context) {
     var sheet = context.workbook.worksheets.getActiveWorksheet();
-    var range = sheet.getRange(rangeAddress);
+    var range;
+    try {
+      range = sheet.getRange(rangeAddress);
+    } catch (e) {
+      throw new Error("Invalid range '" + rangeAddress + "': " + e.message);
+    }
     range.load("values");
     return context.sync().then(function () {
       return range.values;
     });
+  }).catch(function (err) {
+    throw new Error("Failed to read '" + rangeAddress + "': " + err.message);
   });
 }
 
