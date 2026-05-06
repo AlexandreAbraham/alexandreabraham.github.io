@@ -106,7 +106,7 @@ We would expect to see Ampicillin as both molecules are close both in structure 
 
 I have tried to vary different parameters like the distance, the similarity function, but it seems that we need to add some info to move forward. Most of the other studies use protein structure, but I cannot afford that since I do not have neither the data nor the expertise or the computational power.
 
-In the end, we have selected Triamcinolone, Moxidectin, and Spinosad. There should be tested in-vitro in the coming week.
+In the end, we have selected Triamcinolone, Moxidectin, and Spinosad. These should be tested in-vitro in the coming week.
 
 # Work in progress: Using target data
 
